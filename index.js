@@ -7,13 +7,10 @@ function scuberGreetingForFeet(ride){
     message = 'This one is on me!';
   else if(400 < ride < 2000)
       message ='I will gladly take your thirty bucks.'
-
-
   return message;
 }
 
 function ternaryCheckCity(city){
-
       if(city == "NYC")
         message = 'Ok, sounds good.'
       else
