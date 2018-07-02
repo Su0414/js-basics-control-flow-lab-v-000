@@ -8,11 +8,17 @@ function scuberGreetingForFeet(ride){
       result ='I will gladly take your thirty bucks.'
     else if(ride >= 2500)
         result ='No can do.'
-return result
+return result;
 }
 
-function ternaryCheckCity(){
+function ternaryCheckCity(city){
+  let message ;
+  if(city =="NYC")
+    message = 'Ok, sounds good.'
+    else
+    message = 'No go.'
 
+return message;
 }
 
 function switchOnCharmFromTip(){
